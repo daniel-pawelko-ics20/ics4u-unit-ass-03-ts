@@ -130,6 +130,7 @@ class Triangle {
     }
   }
 
+  // Get Height
   public height(sideNumber: number): number {
     if (this.isValid() && sideNumber > 0 && sideNumber < 4) {
       const area = this.area()
@@ -145,10 +146,12 @@ class Triangle {
     }
   }
 
+  // Get inner circle radius
   public innerCircleRadius(): number {
     return this.area() / this.semiPerimeter()
   }
 
+  // Get outer circumsicle radius
   public circumsicleRadius(): number {
     return (this.s1 * this.s2 * this.s3) / (4 * this.area())
   }

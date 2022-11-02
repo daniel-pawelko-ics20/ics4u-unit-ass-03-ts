@@ -1,5 +1,5 @@
 /**
- * This program uses the MrCoxall Stack
+ * This program uses the Triangle Class
  *
  * By:      Daniel Pawelko
  * Version: 1.0
@@ -35,6 +35,7 @@ try {
     // Using Object
     const myTriangle = new Triangle(length1, length2, length3)
 
+    // Print out Triangle info
     console.log(
       `Created a ${length1} mm by ${length2} mm by ${length3} mm triangle.`
     )
